@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #2e2f42;
-  background-color: #fcfcfc;
+  background-color: #fff;
 }
 
 a {
@@ -19,6 +19,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #2e2f42;
 }
 
 .logo-web {
@@ -30,6 +31,11 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.navigation-link:hover {
+  color: #404bbf;
 }
 
 .navigation-address-link {
@@ -38,6 +44,10 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.navigation-address-link:hover {
+  color: #404bbf;
 }
 
 .section-main-headline {
@@ -53,10 +63,6 @@ ul {
 }
 
 .main-headline-button {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-weight: 500;
@@ -64,6 +70,10 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+}
+
+.main-headline-button:hover {
+  background: #404bbf;
 }
 
 h3 {
@@ -91,12 +101,31 @@ h2 {
   background: #f4f4fd;
 }
 
+.team-list {
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+
 .team-name {
   text-align: center;
 }
 
 .team-text {
   text-align: center;
+}
+
+.portfolio-list {
+  background: #fff;
+  width: 360px;
+  height: 420px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 
 footer {
