@@ -38,6 +38,10 @@ ul {
   color: #404bbf;
 }
 
+.navigation-link:focus {
+  color: #404bbf;
+}
+
 .navigation-address {
   font-style: normal;
 }
@@ -69,7 +73,6 @@ ul {
 }
 
 .main-headline-button {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -92,6 +95,7 @@ h3 {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 p {
