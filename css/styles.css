@@ -90,7 +90,9 @@ ul {
   background: #404bbf;
 }
 
-h3 {
+.subtitle,
+.team-name,
+.portfolio-list-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -98,14 +100,18 @@ h3 {
   color: #2e2f42;
 }
 
-p {
+.text,
+.team-text,
+.portfolio-list-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-h2 {
+.subtitle-hidden,
+.subtitle-team,
+.subtitle-portfolio {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
